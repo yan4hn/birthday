@@ -1,0 +1,465 @@
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background-image: url('images/beigebg.jpg');
+    background-size: 250px;
+    margin: 0;
+}
+
+.container {
+    background-color: #F5EFEF;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 550px;
+    position: relative;
+}
+
+.red2lace {
+    width: 225px;
+    height: 75px;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('images/red2lace.jpg')
+}
+
+.r2lace {
+    display: flex;
+}
+
+.rlace {
+    display: flex;
+    margin-top: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.redlace {
+    width: 225px;
+    height: 75px;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('images/redlace.jpg')
+}
+
+.happy-birthday p {
+    line-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 110px;
+    font-family: 'cb';
+    -webkit-text-stroke: 12px #6e0000;;
+}
+
+
+.happy-bday p {
+    line-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 110px;
+    font-family: 'cb';
+    -webkit-text-stroke: 5px white;
+}
+
+.happy {
+    position: absolute;
+    top:20%;
+    right: 35%;
+    text-align: center;
+    width: 70%;
+    color: #9c0505;
+}
+
+.birthday {
+    position: absolute;
+    top:31%;
+    left: 45%;
+    color: #9c0505;
+}
+
+.exc {
+    color: #9c0505;
+    position: absolute;
+    top: 31%;
+    left: 86.2%;
+}
+
+.banner {
+    width: 690px;
+    height: 90px;
+    position:absolute;
+    top:50%;
+    left:22%;
+}
+
+.bday-boy {
+    position: absolute;
+    font-size: 23px;
+    left: 37%;
+    top: 49%;
+    color: white;
+}
+
+.bday-date {
+    position: absolute;
+    font-size: 23px;
+    top: 49%;
+    left: 54%;
+    color: white;
+}
+
+.flowers {
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 280px;
+}
+
+.sp {
+    width: 60px;
+    height: 60px;
+}
+
+#sptop {
+    position:absolute;
+    top:16%;
+    left:15%;
+}
+
+#spbottom {
+    position: absolute;
+    top: 25%;
+    left: 17.5%;
+}
+
+#sptop2 {
+    position: absolute;
+    top: 20%;
+    left: 22.1%;
+}
+
+#spmid {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+
+#spmid2 {
+    position: absolute;
+    top: 19.5%;
+    left: 27%;
+}
+
+#sptop3 {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+#spmid3 {
+    position: absolute;
+    top: 19.5%;
+    left: 33%;
+}
+
+#sptop4 {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+
+#spone {
+    position: absolute;
+    top: 19.5%;
+    left: 39%;
+}
+
+#spone2{
+    position: absolute;
+    top: 26%;
+    left: 40.4%;
+}
+
+#spbottom2 {
+    position: absolute;
+    top: 25%;
+    left: 41%;
+}
+
+#sptop5 {
+    position:absolute;
+    top:27%;
+    left:45%;
+}
+
+#spbottom3 {
+    position: absolute;
+    top: 36%;
+    left: 47.5%;
+}
+
+#spone3 {
+    position: absolute;
+    top: 26%;
+    left: 17%;
+}
+
+#spone4 {
+    position: absolute;
+    top: 37.2%;
+    left: 47%;
+}
+
+#spone5 {
+    position:absolute;
+    top:25.5%;
+    left:51.4%;
+}
+
+#spmid4 {
+    position: absolute;
+    top: 35.8%;
+    left: 50.5%;
+}
+
+#sptop6 {
+    position:absolute;
+    top:31.3%;
+    left:54.5%;
+}
+
+#spmid5 {
+    position:absolute;
+    top:35.7%;
+    left:59%;
+}
+
+#spone6 {
+    position:absolute;
+    top:28%;
+    left:59%;
+}
+
+#sptop7 {
+    position:absolute;
+    top:27%;
+    left:63.3%;
+}
+
+#spmid6 {
+    position:absolute;
+    top:35.7%;
+    left:65.4%;
+}
+
+#spmid7 {
+    position:absolute;
+    top:26%;
+    left:71.5%;
+}
+
+#sptop8 {
+    position:absolute;
+    top:35.7%;
+    left:71.5%;
+}
+
+#sptop9 {
+    position:absolute;
+    top:30.5%;
+    left:75%;
+}
+
+#spmid8 {
+    position:absolute;
+    top:35.5%;
+    left:76.9%;
+}
+
+#spone7 {
+    position: absolute;
+    top: 30.5%;
+    left: 80.3%;
+}
+
+#spone8 {
+    position: absolute;
+    top: 37.1%;
+    left: 81.7%;
+}
+
+#spbottom4 {
+    position: absolute;
+    top: 36%;
+    left: 82.3%;
+}
+
+#heart{
+    width: 75px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.bowsbg {
+    width: 7000px;
+    height:700px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-image: url(images/bows.jpg)
+}
+
+.bows {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@font-face {
+    font-family: 'cb';
+    src: url('fonts/CBI.eot');
+    src: url('fonts/CBI.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CBI.woff2') format('woff2'),
+         url('fonts/CBI.woff') format('woff'),
+         url('fonts/CBI.ttf')  format('truetype'),
+         url('fonts/CBI.svg#Cooper Black') format('svg');
+}
+
+.note {
+    width: 500px;
+    border-radius: 20px;
+    height: 90%;
+    border-color: rgba(0,0,0,0);
+    margin-left: 100px;
+    margin-top: -630px;
+    display: flex;
+    background-size: cover;
+    background-image: url('images/hletter.png')
+}
+
+.letter {
+    width: 500px;
+    border-radius: 20px;
+    height: 90%;
+    margin-left: 100px;
+    margin-top: 35px;
+    display: flex;
+    background-size: cover;
+    background-image: url('images/letterr.png')
+}
+
+  .image-item {
+    flex: 1 0 28%;
+    min-width: 200px;
+    cursor: zoom-in;
+    background-color: transparent;
+    border-color: rgba(0,0,0,0);
+  }
+  
+  .image-item img {
+    object-fit: cover;
+    transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07);
+    position: absolute;
+    top: 84.3%;
+    left: 52%;
+    width: 32%;
+  }
+  
+  .image-item:is(:hover, :focus) img {
+    transform: scale(1.03);
+  }
+
+
+
+
+
+  .gallery {
+    background: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilização da imagem */
+.gallery img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Descrição da imagem */
+.description {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+    max-width: 90%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin: 10px auto;
+}
+
+/* Botões de navegação */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+}
+
+.close-btn {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    background: #ff1493;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Mostrar modal quando ativado */
+.modal-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}

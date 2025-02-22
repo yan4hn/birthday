@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Henrique's Birthday</title>
+    <link href="design.css" rel="stylesheet">
+    <script src="interactive.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <div class="r2lace">
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+            <div class="red2lace"></div>
+        </div>
+
+
+        
+        <div class="happy-birthday">
+            <p class="happy">Happy</p><p class="birthday">Birthday</p><p class="exc">!</p>
+        </div>
+        <div class="happy-bday">
+            <p class="happy">Happy</p><p class="birthday">Birthday</p><p class="exc">!</p>
+        </div>
+
+        <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Ribbons-and-Banners-PNG/Dark_Red_Classic_Banner_Transparent_Clipart.png?m=1629832810" class="banner" alt="shiny red banner"/>
+
+        <p class="bday-boy">Henrique Vilas Boas</p><p class="bday-date">21.02.2006</p>
+        
+        <img src="images/flores.png" class="flowers" alt="flowers"/>
+
+        <img src="images/sptop.png" id="sptop" class="sp" alt="sparkles"/>
+        <img src="images/spbottom.png" id="spbottom" class="sp" alt="sparkles"/>
+
+        <img src="images/sptop.png" id="sptop2" class="sp" alt="sparkles"/>
+        <img src="images/spmid.png" id="spmid" class="sp" alt="sparkles"/>
+
+        <img src="images/spmid.png" id="spmid2" class="sp" alt="sparkles"/>
+        <img src="images/sptop.png" id="sptop3" class="sp" alt="sparkles"/>
+
+        <img src="images/spmid.png" id="spmid3" class="sp" alt="sparkles"/>
+        <img src="images/sptop.png" id="sptop4" class="sp" alt="sparkles"/>
+
+        <img src="images/spone.png" id="spone" class="sp" alt="sparkles"/>
+        <img src="images/spbottom.png" id="spbottom2" class="sp" alt="sparkles"/>
+        <img src="images/spone.png" id="spone2" class="sp" alt="sparkles"/>
+
+        <img src="images/sptop.png" id="sptop5" class="sp" alt="sparkles"/>
+        <img src="images/spbottom.png" id="spbottom3" class="sp" alt="sparkles"/>
+
+        <img src="images/spone.png" id="spone3" class="sp" alt="sparkles"/>
+        <img src="images/spone.png" id="spone4" class="sp" alt="sparkles"/>
+
+        <img src="images/spone.png" id="spone5" class="sp" alt="sparkles"/>
+        <img src="images/spmid.png" id="spmid4" class="sp" alt="sparkles"/>
+
+        <img src="images/sptop.png" id="sptop6" class="sp" alt="sparkles"/>
+
+        <img src="images/spmid.png" id="spmid5" class="sp" alt="sparkles"/>
+        <img src="images/spone.png" id="spone6" class="sp" alt="sparkles"/>
+        
+        <img src="images/sptop.png" id="sptop7" class="sp" alt="sparkles"/>
+        <img src="images/spmid.png" id="spmid6" class="sp" alt="sparkles"/>
+
+        <img src="images/spmid.png" id="spmid7" class="sp" alt="sparkles"/>
+        <img src="images/sptop.png" id="sptop8" class="sp" alt="sparkles"/>
+
+        <img src="images/sptop.png" id="sptop9" class="sp" alt="sparkles"/>
+        <img src="images/spmid.png" id="spmid8" class="sp" alt="sparkles"/>
+
+        <img src="images/spone.png" id="spone7" class="sp" alt="sparkles"/>
+        <img src="images/spbottom.png" id="spbottom4" class="sp" alt="sparkles"/>
+        <img src="images/spone.png" id="spone8" class="sp" alt="sparkles"/>
+
+        <div class="rlace">
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+            <div class="redlace"></div>
+        </div>
+    </div>
+    </body> 
+    <body>
+    <div class="bows">
+        <div class="bowsbg">
+            <div class="letter" id="letter"></div>
+            <button onclick="hideButton(this)" class="note" id="note"></button>
+            <button class="image-item" onclick="toggleModal()">
+                <img src="images/p1.png">
+            </button>
+            <div class="modal-overlay" id="modal">
+                <div class="gallery">
+                    <img id="photo" src="pic1.jpg" alt="Imagem 1">
+                    <p class="description" id="description">Face reveal pics!!! Your face is literally so prettyyy</p>
+                    <div class="controls">
+                        <button class="btn" onclick="prevPhoto()">⬅</button>
+                        <button class="close-btn" onclick="toggleModal()">X</button>
+                        <button class="btn" onclick="nextPhoto()">➡</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("modal");
+        const photos = [
+            { src: "https://riquevbs.github.io/pooks/pic1.jpg", desc: "Face reveal pics!!! Your face is literally so prettyyy" },
+            { src: "pic2.jpg", desc: "I love your bright smile, it always makes me happy" },
+            { src: "pic3.jpg", desc: "You winking and making that cute pose made me fall for you" },
+            { src: "pic4.jpg", desc: "Luca my beloved (hes so cute)" },
+            { src: "pic5.jpg", desc: "YOUR SMILE IS SO CUTE I CANTTTTTT" },
+            { src: "pic6.jpg", desc: "Your hunter eyes are so pretty like OMGGG GIRLLLL SLAYYY" },
+            { src: "pic7.jpg", desc: "I FOUND THIS PIC AND IT WAS SO FUNNY 'I have two sides...'AHH PIC LMAOOO" },
+            { src: "pic8.jpg", desc: "The dog filter looks so silly and cute on you (whos my good girl? Bark for me pookie :3)" },
+            { src: "pic9.jpg", desc: "WHY ARE U GIVING ME THE SIDE EYEEE (looking fine as hell tho...)" },
+            { src: "pic10.jpg", desc: "LITTLE YAN WITH HER ICONIC POSE OMGGGGGGG YOU ARE SO CUTEEEEEEEEE AAAA" },
+            { src: "pic11.jpg", desc: "hmph hmph hmph hmph how could u be mean to me :( i will cry" },
+            { src: "pic12.jpg", desc: "Giving me the side eye on the bussss (i want to eat u up)" },
+            { src: "pic13.jpg", desc: "DAMNNNN you look so cool and nonchalanttttttttt (im gonna kiss u)" },
+            { src: "pic14.jpg", desc: "My pookie brushing her teethhhhhhhhhhhhh (SO CUTEEE)" },
+            { src: "pic15.jpg", desc: "Hehehehh u hit that silly but cute pose I LOVE ITTTTT (girl is NOT the america psycho)" },
+            { src: "pic16.jpg", desc: "CUTEST DUO I HAVE EVER SEENNNNNNNNN OMGGGGGG I NEED MORE PICS LIKE THESEEEE" },
+            { src: "pic17.jpg", desc: "I love this pic so much, you look REALLLLYYY hot on that one (you always do) but its something about the pose that you did that awakened something inside of me" },
+            { src: "pic18.jpg", desc: "Please dont hit mee :((((((((((( im gonna cry more if u do (this pic was really silly eheheheeheh)" }
+
+        ];
+
+        let index = 0;
+
+        function updatePhoto() {
+            const img = document.getElementById("photo");
+            const desc = document.getElementById("description");
+            img.style.opacity = "0"; // Suaviza a transição
+            setTimeout(() => {
+                img.src = photos[index].src;
+                desc.textContent = photos[index].desc;
+                img.style.opacity = "1";
+            }, 300);
+        }
+
+        function nextPhoto() {
+            index = (index + 1) % photos.length; // Volta para a primeira ao chegar na última
+            updatePhoto();
+        }
+
+        function prevPhoto() {
+            index = (index - 1 + photos.length) % photos.length; // Volta para a última ao chegar na primeira
+            updatePhoto();
+        }
+
+        function toggleModal() {
+            modal.classList.toggle("active");
+        }
+        </script>
+</body>
+</html>
