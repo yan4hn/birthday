@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cooper Black';
+    src: url('fonts/CBI.eot');
+    src: url('fonts/CBI.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CBI.woff2') format('woff2'),
+         url('fonts/CBI.woff') format('woff'),
+         url('fonts/CBI.ttf')  format('truetype'),
+         url('fonts/CBI.svg#Cooper Black') format('svg');
+}
